@@ -17,6 +17,7 @@ def assign_rooms(attendees)
     array_x << "Hello, #{name}! You’ll be assigned to room #{room+1}!"
   end
   return array_x
+  puts array_x
 end
 
 def printer(attendees)
