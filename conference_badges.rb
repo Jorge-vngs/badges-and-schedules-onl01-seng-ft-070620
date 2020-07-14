@@ -16,7 +16,7 @@ def assign_rooms(attendees)
     attendees.each_with_index do |name, room|
     array_x << "Hello, #{name}! You’ll be assigned to room #{room+1}!"
   end
-  return array_x
+  puts array_x
 end
 
 def printer(attendees)
